@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ObservationCreate" >
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context="com.example.ei.merdivan.ObservationCreate"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_place"
+        android:hint="@string/hint"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/btn_show"
+        android:layout_toStartOf="@+id/btn_show"
+        android:layout_alignBottom="@+id/btn_show"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cameraButton"
+        android:background="@null"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/camera_icon"
+        android:clickable="true"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İptal"
+        android:background="#ffa457"
+        android:textColor="#ffffff"
+        android:radius= "8dp"
+        android:id="@+id/cancelButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:layout_alignTop="@+id/sendButton"
+        android:layout_toLeftOf="@+id/cameraButton"
+        android:layout_toStartOf="@+id/cameraButton"
+        android:singleLine="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gönder"
+        android:background="#ffa457"
+        android:textColor="#ffffff"
+        android:id="@+id/sendButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btn_show"
+        android:layout_alignEnd="@+id/btn_show"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:layout_toEndOf="@+id/cameraButton"
+        android:layout_toRightOf="@+id/cameraButton" />
+
+
+    <EditText
+        android:id="@+id/textBox"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/rounded_edittext"
+        android:maxLength="300"
+        android:inputType="textMultiLine"
+        android:hint="Açıklama:"
+        android:lines="5"
+        android:gravity="top|left"
+        android:layout_above="@+id/cancelButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">>
+
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/cancel_edit_text"
+        android:visibility="invisible"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/cancel_button"
+        android:layout_alignTop="@+id/textBox"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+
+
+
+</RelativeLayout>

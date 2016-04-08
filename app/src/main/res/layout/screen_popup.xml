@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_element"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D8D8D8">
+
+
+    <LinearLayout android:id="@+id/linearLayout1"
+        android:layout_height="103dp"
+        android:layout_alignParentLeft="true"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.00">
+
+        <ImageButton
+            android:id="@+id/ImageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dip"
+            android:layout_marginRight="1dip"
+            android:layout_weight="1"
+            android:src="@drawable/plug" >
+        </ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/ImageButton2"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="1dip"
+            android:layout_weight="1"
+            android:src="@drawable/water_drop"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dip"
+            android:layout_gravity="center_horizontal">
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/linearLayout2"
+        android:layout_height="98dp"
+        android:layout_alignParentLeft="true"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.00">
+
+        <ImageButton
+            android:id="@+id/ImageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dip"
+            android:layout_marginRight="1dip"
+            android:layout_weight="1"
+            android:src="@drawable/traffic_light" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ImageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dip"
+            android:layout_marginRight="1dip"
+            android:layout_weight="1"
+            android:src="@drawable/flower" >
+        </ImageButton>
+
+    </LinearLayout>
+
+
+    <LinearLayout android:id="@+id/linearLayout3"
+        android:layout_height="94dp"
+        android:layout_alignParentLeft="true"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+
+
+
+        <ImageButton
+            android:id="@+id/ImageButton9"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="1dip"
+            android:layout_weight="1"
+            android:src="@drawable/fan"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dip">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ImageButton8"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="1dip"
+            android:layout_weight="1"
+            android:src="@drawable/caution"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dip">
+        </ImageButton>
+
+
+    </LinearLayout>
+</LinearLayout>

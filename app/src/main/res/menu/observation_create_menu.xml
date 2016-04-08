@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ObservationCreate">
+    <!-- Search, should appear as action button -->
+    <!--<item android:id="@+id/action_current_location"-->
+        <!--android:icon="@mipmap/action_current_location"-->
+        <!--android:title="@string/action_current_location"-->
+        <!--android:orderInCategory="1"-->
+        <!--app:showAsAction="ifRoom" />-->
+</menu>

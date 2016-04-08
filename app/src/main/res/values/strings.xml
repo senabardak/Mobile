@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">theObserver</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_observation_create">Gözlem Yarat</string>
+    <string name="title_activity_observation_detail">Gözlem Detay</string>
+    <string name="title_activity_observation_list">Gözlem Listesi</string>
+    <string name="action_current_location">Current Location</string>
+    <string name="find">Ara</string>
+    <string name="hint">Adres Giriniz</string>
+
+
+</resources>

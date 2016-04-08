@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/belediye_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"/>
+
+    <TextView
+        android:id="@+id/areas_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/belediye_icon" />
+
+    <TextView
+        android:id="@+id/areas_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/areas_name"
+        android:layout_toLeftOf="@+id/layer"
+        android:layout_toRightOf="@+id/belediye_icon"
+        android:layout_marginLeft="1dp"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/layer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/areas_name"
+        android:layout_alignParentRight="true"
+        android:textSize="12sp" />
+
+</RelativeLayout>

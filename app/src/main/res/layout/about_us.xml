@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:background="#e5734b"
+        android:textColor="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="                         Hakkımızda"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/observation_type"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/vote_button"
+        android:layout_toStartOf="@+id/vote_button"
+        android:layout_alignBottom="@+id/vote_button"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="16dp"/>
+
+    <LinearLayout android:id="@+id/linearLayout_4"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.09">
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Kurallar"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Merdivan tarafsızlığı korumak için aşağıdaki kuralları şart koşmutur;"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Merdivan içerikten sorumlu değildir ancak, Merdivan içeriğinden memnun olmadığı her gözlemi, dosyayı ve bunları yükleyen kullanıcıyı silebilir."
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Üyelik Kuralları:"
+        android:id="@+id/textView6" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1)Rumuzlar kabulümüzdür ancak ad, soyad ve e-posta bilgilerinizi istiyoruz."
+        android:id="@+id/textView7" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="2)Özel mesajlarda küfür, hakaret ve ırkçılık atılma sebebidir."
+        android:id="@+id/textView8" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="3)İnançlara, milli kültürlere, örf ve adetlere saldırı atılma sebebidir."
+        android:id="@+id/textView9" />
+</LinearLayout>
